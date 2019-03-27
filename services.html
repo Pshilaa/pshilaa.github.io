@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <![endif]-->
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- Page title -->
+      <title>pishila</title>
+      <!--[if lt IE 9]>
+      <script src="js/respond.js"></script>
+      <![endif]-->
+      <!-- Bootstrap Core CSS -->
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+      <!-- Icon fonts -->
+      <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href="fonts/flaticons/flaticon.css" rel="stylesheet" type="text/css">
+      <link href="fonts/glyphicons/bootstrap-glyphicons.css" rel="stylesheet" type="text/css">
+      <!-- Google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Lato:400,800" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
+      <!-- Style CSS -->
+      <link href="css/style.css" rel="stylesheet">
+      <!-- Plugins CSS -->
+      <link rel="stylesheet" href="css/plugins.css">
+      <!-- Color Style CSS -->
+      <link href="styles/maincolors.css" rel="stylesheet">
+      <!-- Favicons-->
+      <link rel="apple-touch-icon" sizes="72x72" href="http://ingridkuhn.com/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="http://ingridkuhn.com/apple-icon-114x114.png">
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	    <!-- Switcher Only -->
+	<link rel="stylesheet" id="switcher-css" type="text/css" href="switcher/css/switcher.css" media="all" />
+	<!-- END Switcher Styles -->
+
+	<!-- Demo Examples (For Module #3) -->
+	<link rel="alternate stylesheet" type="text/css" href="styles/bluecollarpet.css" title="bluecollarpet" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="styles/delicatepet.css" title="delicatepet" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="styles/maincolors.css" title="maincolors" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="styles/tropicalpet.css" title="tropicalpet" media="all" />
+	<link rel="alternate stylesheet" type="text/css" href="styles/sweetpet.css" title="sweetpet" media="all" />
+	<!-- END Demo Examples -->
+   </head>
+   <body id="page-top">
+   
+	 <!-- Start Switcher -->
+	<div class="demo_changer">
+	   <div class="demo-icon">
+		  <i class="fa fa-cog fa-spin fa-2x"></i>
+	   </div>
+	   <!-- end opener icon -->
+	   <div class="form_holder text-center">
+		  <div class="row">
+			 <div class="col-lg-12">
+				<div class="predefined_styles">
+				   <h5>Choose a Color Skin</h5>
+				   <!-- MODULE #3 -->
+				   <a href="http://ingridkuhn.com/themes/petz/bluecollarpet" class="styleswitch"><img src="switcher/images/bluecollarpet.png" alt="Blue Collar Pet"></a>		
+				   <a href="http://ingridkuhn.com/themes/petz/delicatepet" class="styleswitch"><img src="switcher/images/delicate.png" alt="Delicate Pet"></a>		
+				   <a href="http://ingridkuhn.com/themes/petz/tropicalpet" class="styleswitch"><img src="switcher/images/tropical.png" alt="Tropical Pet"></a>		
+				   <a href="http://ingridkuhn.com/themes/petz/sweetpet" class="styleswitch"><img src="switcher/images/sweet.png" alt="Sweet Pet"></a>		
+				   <a href="http://ingridkuhn.com/themes/petz/maincolors" class="styleswitch"><img src="switcher/images/maincolors.png" alt="Main Colors"></a>		
+				   <!-- END MODULE #3 -->
+				</div>
+				<!-- end predefined_styles -->
+				<h5>Change Home Header</h5>
+				<select id="headers" class="show-menu-arrow selectpicker" onchange="document.location = this.value">
+				   <option value="">Select</option>
+				   <option value="index1.html">Video Header</option>
+				   <option value="index.html">Drag Slider</option>
+				</select>
+				<h5>Layout</h5>
+				<select id="headers2" class="show-menu-arrow selectpicker" onchange="document.location = this.value">
+				   <option value="">Select</option>
+				   <option value="index-boxed.html">Boxed</option>
+				   <option value="index.html">Fullwidth</option>
+				</select>
+			 </div>
+			 <!-- end col -->
+		  </div>
+		  <!-- end row -->
+	   </div>
+	   <!-- end form_holder -->
+	</div>
+	<!-- end demo_changer -->
+	<!-- End Switcher -->
+      <!-- Preloader -->
+      <div id="preloader">
+         <div class="spinner">
+            <div class="bounce1"></div>
+         </div>
+      </div>
+      <!-- Preloader ends -->
+      <nav class="navbar navbar-custom navbar-fixed-top">
+         <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+               <i class="fa fa-bars"></i>
+               </button>
+               <div class="navbar-brand navbar-brand-centered">
+                  <a href="index.html">
+                     <!-- logo  -->
+                     <img src="img/logo.png" class="img-responsive" alt="">
+                  </a>
+               </div>
+            </div>
+            <!--/navbar-header -->
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-brand-centered">
+               <ul class="nav navbar-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li class="dropdown active">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Pages<b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="adoption.html">Adoption</a></li>
+						<li><a href="adopt-single.html">Adoption Single</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="services-single.html">Services Single</a></li>
+                        <li><a href="team.html">Our Team</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="testimonials.html">Testimonials</a></li>
+                        <li><a href="elements.html">Elements</a></li>
+                     </ul>
+                  </li>
+               </ul>
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li class="dropdown">
+                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog<b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="blog.html">Blog Home</a></li>
+                        <li><a href="blog-single.html">Blog Post</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="contact.html">Contact</a></li>
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container -->
+      </nav>
+      <!-- /navbar ends -->
+      <!-- Section Services -->
+      <section id="services" class="pages">
+         <div class="jumbotron" data-stellar-background-ratio="0.5">
+            <!-- Heading -->
+            <div class="jumbo-heading" data-stellar-background-ratio="1.2">
+               <h1>Our Services</h1>
+            </div>
+         </div>
+         <!-- container-->
+         <div class="container">
+            <div class="row">
+               <div class="col-md-7">
+                  <h3>Everything for your Pet</h3>
+                  <p>Elit uasi quidem minus id omnis a nibh fusce mollis imperdie tlorem ipuset phas ellus ac sodales Lorem ipsum dolor Phas ellus 
+                     ac sodales felis tiam non metus. lorem ipsum dolor sit amet, consectetur adipisicing elit uasi quidem minus id omnis a nibh fusce mollis imperdie tlorem ipuset campas fincas
+                  </p>
+                  <!-- ul custom-->
+                  <ul class="custom no-margin">
+                     <li>Aliquam erat volut pat.</li>
+                     <li>Ibu lum orci eget, viverra elit liquam erat volut pat phas ellus ac.</li>
+                     <li>Aliquam erat volut pat phas ellu</li>
+                  </ul>
+               </div>
+               <!-- /col-md-7-->
+               <div class="col-md-5">
+                  <img src="img/services.jpg" class="center-block img-responsive" alt="">
+               </div>
+               <!-- col-md-5-->
+            </div>
+            <!-- /row-->
+            <div class="row">
+               <!-- owl-services -->
+               <div id="owl-services" class="owl-carousel">
+                  <!-- Feature Box 1  -->
+                  <div class="col-xs-12">
+                     <div class="box_icon">
+                        <div class="icon">
+                           <!-- icon -->
+                           <div class="image">
+                              <img src="img/service1.jpg" class="img-responsive" alt="">
+                           </div>
+                           <div class="info">
+                              <h4>Exotic Pets</h4>
+                              <p>Nulla vel metus scelerisque ante sollicitudinlorem ipsuet commodo. Cras purus odio, vestibulum in vulputate a Imperdiet interdum donec eget metus auguen unc vel lorem.</p>
+                              <!-- Button-->
+                              <a class="btn" href="services-single.html">Read More</a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /box_icon -->
+                  </div>
+                  <!-- /col-xs-12 ends -->
+                  <!-- Feature Box 2 -->
+                  <div class="col-xs-12">
+                     <div class="box_icon">
+                        <div class="icon">
+                           <!-- icon -->
+                           <div class="image">
+                              <img src="img/service2.jpg" class="img-responsive" alt="">
+                           </div>
+                           <div class="info">
+                              <h4>Vet Services</h4>
+                              <p>Nulla vel metus scelerisque ante sollicitudinlorem ipsuet commodo. Cras purus odio, vestibulum in vulputate a Imperdiet interdum donec eget metus auguen unc vel lorem.</p>
+                              <!-- Button-->
+                              <a class="btn" href="services-single.html">Read More</a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /box_icon -->
+                  </div>
+                  <!-- /col-xs-12 ends -->
+                  <!-- Feature Box 3  -->
+                  <div class="col-xs-12">
+                     <div class="box_icon">
+                        <div class="icon">
+                           <!-- icon -->
+                           <div class="image">
+                              <img src="img/service3.jpg" class="img-responsive" alt="">
+                           </div>
+                           <div class="info">
+                              <h4>Great Products</h4>
+                              <p>Nulla vel metus scelerisque ante sollicitudinlorem ipsuet commodo. Cras purus odio, vestibulum in vulputate a Imperdiet interdum donec eget metus auguen unc vel lorem.</p>
+                              <!-- Button-->
+                              <a class="btn" href="services-single.html">Read More</a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /box_icon -->
+                  </div>
+                  <!-- /col-xs-12 ends -->
+                  <!-- Feature Box 4  -->
+                  <div class="col-xs-12">
+                     <div class="box_icon">
+                        <div class="icon">
+                           <!-- icon -->
+                           <div class="image">
+                              <img src="img/service4.jpg" class="img-responsive" alt="">
+                           </div>
+                           <div class="info">
+                              <h4>Pet Hotel</h4>
+                              <p>Nulla vel metus scelerisque ante sollicitudinlorem ipsuet commodo. Cras purus odio, vestibulum in vulputate a Imperdiet interdum donec eget metus auguen unc vel lorem.</p>
+                              <!-- Button-->
+                              <a class="btn" href="services-single.html">Read More</a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /box_icon -->
+                  </div>
+                  <!-- /col-xs-12 ends -->
+                  <!-- Feature Box 5  -->
+                  <div class="col-xs-12">
+                     <div class="box_icon">
+                        <div class="icon">
+                           <!-- icon -->
+                           <div class="image">
+                              <img src="img/service5.jpg" class="img-responsive" alt="">
+                           </div>
+                           <div class="info">
+                              <h4>Dog Walking</h4>
+                              <p>Nulla vel metus scelerisque ante sollicitudinlorem ipsuet commodo. Cras purus odio, vestibulum in vulputate a Imperdiet interdum donec eget metus auguen unc vel lorem.</p>
+                              <!-- Button-->
+                              <a class="btn" href="services-single.html">Read More</a>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- /box_icon -->
+                  </div>
+                  <!-- /col-xs-12 ends -->
+               </div>
+               <!-- /owl-services -->
+            </div>
+            <!-- /row -->
+         </div>
+         <!-- /container -->
+      </section>
+      <!-- /Section ends -->
+      <!-- Footer -->		
+      <footer>
+         <!-- Contact info -->
+         <div class="container">
+            <div class="col-md-4 text-center">
+               <!-- Footer logo -->
+               <img src="img/logo.png" alt="" class="center-block img-responsive">
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4 text-center res-margin">
+               <ul class="list-unstyled">
+                  <li><i class="fa fa-phone"></i>(000) 000-000</li>
+                  <li><i class="fa fa-envelope"></i>Email: <a href="mailto:your@email.com">site@email.com</a></li>
+                  <li><i class="fa fa-map-marker"></i>123 Anywhere Street,London,LO4 6ON</li>
+               </ul>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-4 text-center res-margin">
+               <h5>Follow us</h5>
+               <!--Social icons -->
+               <div class="social-media">
+                  <a href="#" title=""><i class="fa fa-twitter"></i></a>
+                  <a href="#" title=""><i class="fa fa-facebook"></i></a>
+                  <a href="#" title=""><i class="fa fa-google-plus"></i></a>
+                  <a href="#" title=""><i class="fa fa-instagram"></i></a>
+               </div>
+            </div>
+            <!-- /.col-md-4 -->
+         </div>
+         <!-- /.container -->
+         <!-- Credits-->
+         <div class="credits col-md-12 text-center">
+            Copyright © 2017 - Designed by <a href="http://www.ingridkuhn.com">Ingrid Kuhn</a>
+            <!-- Go To Top Link -->
+            <div class="page-scroll hidden-sm hidden-xs">
+               <a href="#page-top" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+            </div>
+         </div>
+         <!-- /credits -->
+      </footer>
+      <!-- /footer ends -->
+      <!-- Core JavaScript Files -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <!-- Main Js -->
+      <script src="js/main.js"></script>
+      <!--Other Plugins -->
+      <script src="js/plugins.js"></script>
+      <!-- Prefix free CSS -->
+      <script src="js/prefixfree.js"></script>
+<!-- Bootstrap Select Tool (For Module #4) -->
+	<script src="switcher/js/bootstrap-select.js"></script>
+	<!-- UI jQuery (For Module #5 and #6) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.js" type="text/javascript"></script>
+	<!-- All Scripts & Plugins -->
+	<script src="switcher/js/dmss.js"></script>		  
+   </body>
+</html>
