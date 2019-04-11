@@ -225,7 +225,7 @@ i {
 /* Shrink navbar on scroll  */
 
 nav .navbar-brand img {
-    max-width: 75px;
+    max-width: 85px;
 }
 nav .navbar-toggle {
     margin: 13px 15px 13px 0;
@@ -240,7 +240,7 @@ nav.navbar.shrink {
     min-height: 35px;
 }
 nav.navbar.shrink .navbar-brand img {
-    max-width: 70px;
+    max-width: 55px;
 }
 nav.navbar.shrink a {
     font-size: 15px;
