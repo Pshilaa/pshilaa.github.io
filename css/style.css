@@ -1349,6 +1349,7 @@ section.small-section {
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
     box-shadow: 2px 0px 20px #cecece;
+    height: 650px;
 }
 .box_icon > .icon > .image {
     position: relative;
