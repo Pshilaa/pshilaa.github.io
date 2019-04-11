@@ -3,13 +3,13 @@
 */
 
 class Thpace {
-    constructor(canvas, settings) {
-        if (!canvas) {
-            console.log('Need a valid canvas element.');
+    constructor(canvas1, settings) {
+        if (!canvas1) {
+            console.log('Need a valid canvas1 element.');
             return;
         }
-        this.canvas = canvas;
-        this.ctx = canvas.getContext('2d');
+        this.canvas1 = canvas1;
+        this.ctx = canvas1.getContext('2d');
 
         this.triangles = [];
         this.particles = [];
@@ -210,9 +210,9 @@ class Thpace {
     }
 
     resize() {
-        var p = this.canvas.parentElement;
-        this.canvas.width = p.clientWidth;
-        this.canvas.height = p.clientHeight;
+        var p = this.canvas1.parentElement;
+        this.canvas1.width = p.clientWidth;
+        this.canvas1.height = p.clientHeight;
         this.width = p.clientWidth;
         this.height = p.clientHeight;
 
@@ -362,8 +362,8 @@ function getRGBA(r, g, b, a) {
     return 'rgba(' + r + ', ' + g + ', ' + b + ', ' + a + ')';
 }
 
-let canvas = document.getElementById('canvas');
+let canvas1 = document.getElementById('canvas1');
 
-let spaceboi = new Thpace(canvas);
+let spaceboi = new Thpace(canvas1);
 
 spaceboi.start();
